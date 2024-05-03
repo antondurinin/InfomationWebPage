@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     container.appendChild(titleBox);
 
     let intervalId = null;
-
+ 
+    
     window.startAutoUpdate = function (index) {
       intervalId = setInterval(() => {
         updateContent(index);
